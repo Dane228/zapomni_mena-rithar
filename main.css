@@ -17,7 +17,7 @@ a{
 .neon-button, .neon-button1 {
     color: #2044d5; /* Text color */
     background-color: #1a1a1a; /* Same as the background for a seamless look */
-    border: 0.4vw solid #2044d5; /* Solid border with neon color */
+    border: 0.1vw solid #2044d5; /* Solid border with neon color */
     border-radius: 1vw; /* Slight rounding of corners */
     padding: 1vw 2vw; /* Padding around the text */
     font-size: 1.5vw; /* Visible and impactful text size */
@@ -90,7 +90,7 @@ p{
 .info p{
     color: white;
     text-align: center;
-    padding-top: 30vw;
+    padding-top: 130vw;
     font-size: 0.8vw;
 }
 
