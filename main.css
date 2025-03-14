@@ -2,9 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
  
 body {
+    margin: 0;
     padding: 5vw 1vw 1vw 1vw;
-  background-image: url(./главная/v1016-b-09.jpg); /* Dark background for neon contrast */
-  background-size: 100%;
+    background-image: url(./главная/v1016-b-09.jpg); /* Dark background for neon contrast */
+    background-size: 100%;
 }
 
 a{
@@ -31,9 +32,9 @@ a{
  
 /* Styling for hover state */
 .neon-button:hover {
-  color: #1a1a1a; /* Text color changes on hover */
-  background-color: #2044d5; /* Button color fills on hover */
-  filter: drop-shadow(0 0 1vw #2044d5) drop-shadow(0 0 1vw #2044d5)
+    color: #1a1a1a; /* Text color changes on hover */
+    background-color: #2044d5; /* Button color fills on hover */
+    filter: drop-shadow(0 0 1vw #2044d5) drop-shadow(0 0 1vw #2044d5)
     contrast(1.8) brightness(1.8); /* Glow effect is enhanced on hover */
 }
 
