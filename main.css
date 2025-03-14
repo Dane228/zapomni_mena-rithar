@@ -3,7 +3,7 @@
  
 body {
     margin: 0;
-    padding: 5vw 1vw 1vw 1vw;
+    padding: 4vw 1vw 1vw 1vw;
     background-image: url(./главная/v1016-b-09.jpg); /* Dark background for neon contrast */
     background-size: 100%;
 }
@@ -11,31 +11,28 @@ body {
 a{
     text-decoration: none;
     margin: 15vw 0 0 0;
+    font-size: 2vw;
 }
  
-/* Styling for our neon button */
-.neon-button, .neon-button1 {
-    color: #2044d5; /* Text color */
-    background-color: #1a1a1a; /* Same as the background for a seamless look */
-    border: 0.1vw solid #2044d5; /* Solid border with neon color */
-    border-radius: 1vw; /* Slight rounding of corners */
-    padding: 1vw 2vw; /* Padding around the text */
-    font-size: 1.5vw; /* Visible and impactful text size */
-    font-family: "Montserrat", sans-serif; /* Stylish font */
-    letter-spacing: 0.1vw; /* Space between letters for better readability */
-    cursor: pointer; /* Changes cursor to a pointer on hover */
-    font-weight: bold; /* Bold text */
-    filter: drop-shadow(0 0 0.2vw #2044d5) drop-shadow(0 0 0.2vw #2044d5)
-        contrast(1.8) brightness(1.8); /* Adds a subtle glow effect and enhances the vibrancy */
-    transition: 0.6s; /* Smooth color change on hover */
-    }
- 
-/* Styling for hover state */
-.neon-button:hover {
-    color: #1a1a1a; /* Text color changes on hover */
-    background-color: #2044d5; /* Button color fills on hover */
-    filter: drop-shadow(0 0 1vw #2044d5) drop-shadow(0 0 1vw #2044d5)
-    contrast(1.8) brightness(1.8); /* Glow effect is enhanced on hover */
+.neon-button{
+    letter-spacing: 0.1vw;
+    margin: 0 2vw 0 0;
+    padding: 1vw;
+    height: 5vw;
+    border: 0.5vw solid #2044d5;
+    background-color: #000000;
+    border-radius: 1vw;
+    filter: drop-shadow(0 0 0.4vw #2044d5) drop-shadow(0 0 0.4vw #2044d5)
+        contrast(1.2) brightness(1.1);
+    transition: 0.5s
+}
+
+.neon-button:hover{
+    background-color: #2044d5;
+    color: black;
+    filter: drop-shadow(0 0 1.5vw #2044d5) drop-shadow(0 0 1.5vw #2044d5)
+        contrast(1.2) brightness(1.1);
+    transition: 0.5s
 }
 
 .logo img{
